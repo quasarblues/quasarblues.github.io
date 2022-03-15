@@ -1,0 +1,61 @@
+body {
+    background-color: #0a0908;
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3.2rem;
+    color: #f2f4f3;
+}
+
+h2 {
+    color: #f2f4f3;
+    font-size: 2.5rem;
+}
+
+.lead {
+    color: #f2f4f3;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+#mainNav .navbar-brand {
+font-size: 2rem;
+color: #f2f4f3;
+}
+
+#mainNav .nav-link:hover {
+    color: #f2f4f3;
+    transition: color 400ms;
+}
+
+#mainNav {
+    font-size: 1.6rem;
+    background-color: #22333b;
+    font-weight: 100;
+    margin-bottom: 1000px;
+}
+
+#first_row {
+    margin-top: 5rem;
+}
+
+#headingGroup span {
+    color: #a9927d;
+}
+
+@media (min-width: 1000px) {
+    section {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 1000px){
+    #headingGroup h1{
+        font-size: 2.7rem;
+    }
+}
